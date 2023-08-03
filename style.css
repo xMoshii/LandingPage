@@ -25,6 +25,7 @@ body {
 }
 .signbutton {
     color: white;
+    border-color: white;
     border-radius: 10px;
     background-color: #3882F6;
     display: flex;
@@ -57,14 +58,16 @@ body {
 }
 .quotecont {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 32px;
+    height: 250px;
 }
 .quote {
     display: flex;
     flex:1;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 25px;
     color: #1F2937;
     background-color: #E5E7EB;
 }
@@ -73,16 +76,36 @@ body {
     justify-content: end;
     font-weight: bold;
 }
-
 .signup {
+    background-color: white;
+    padding: 16px;
+}
+.signupblock {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: white;
+    justify-content: space-between;
+    background: #3882F6;
     width: auto;
-    border-radius: 10px;
-    
-    margin: 60px;
+    height: 100px;
+    border-radius: 5px; 
+    margin: 100px;
+}
+.signcont {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+.stext {
+    flex-direction: column;
+    padding: 32px;
+    font-weight: bold;
+    display: flex;    
+    justify-content: space-between;
+}
+.btext {
+    font-weight: 200;
 }
 .footer { 
     bottom: 0;
